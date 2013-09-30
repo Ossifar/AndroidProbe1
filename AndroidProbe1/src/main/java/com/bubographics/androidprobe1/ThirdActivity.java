@@ -5,25 +5,20 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class SecondActivity extends Activity {
+public class ThirdActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_third);
     }
 
-    public void GotoPantalla1 (View view) {
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.second, menu);
+        getMenuInflater().inflate(R.menu.third, menu);
         return true;
     }
 
@@ -31,8 +26,8 @@ public class SecondActivity extends Activity {
     public boolean onOptionsItemSelected (MenuItem item) {
         Intent i;
         switch (item.getItemId()) {
-            case R.id.action_settings_1:
-                i = new Intent(this, MainActivity.class);
+            case R.id.action_settings_2:
+                i = new Intent(this, SecondActivity.class);
                 startActivity(i);
                 break;
             case R.id.action_settings_3:
@@ -42,5 +37,4 @@ public class SecondActivity extends Activity {
         }
         return true;
     };
-    
 }

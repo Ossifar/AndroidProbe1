@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">AndroidProbe1</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings_1">Pantalla 1</string>
+    <string name="action_settings_2">Pantalla 2</string>
+    <string name="action_settings_3">Pantalla 3</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_second">SecondActivity</string>
     <string name="button_2">Anar a pantalla 1</string>
@@ -11,5 +13,7 @@
     <string name="pantalla_1">Pantalla numero 1</string>
     <string name="quadre_text_1">Segons els organitzadors prop de 110.000 persones es manifestaren ahir horabaixa a Palma.</string>
     <string name="quadre_text_2">Segons el Govern Balear 100 judeomasónicos crearen aldarrulls ahir horabaixa a Palma.</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
