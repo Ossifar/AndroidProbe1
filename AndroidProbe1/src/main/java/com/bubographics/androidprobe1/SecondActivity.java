@@ -15,7 +15,7 @@ public class SecondActivity extends Activity {
     }
 
     public void GotoPantalla1 (View view) {
-        Intent i = new Intent(this, SecondActivity.class);
+        Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
 
